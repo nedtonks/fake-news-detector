@@ -26,6 +26,15 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
+```cd backend 
+python3.12 --version 
+python3.12 -m venv venv 
+source venv/bin/activate 
+pip install -r requirements.txt 
+git lfs install 
+git lfs pull 
+uvicorn main:app --reload
+```
 
 ### Frontend Setup
 ```bash
